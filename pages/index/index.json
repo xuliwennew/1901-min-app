@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "my-hello":"../../components/hello/hello"
+  },
+  "enablePullDownRefresh": true
+}

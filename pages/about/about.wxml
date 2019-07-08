@@ -1,0 +1,5 @@
+ 
+ <view class="container">
+    <view>{{num}}</view>
+    <button bindtap='update'>+</button>
+ </view>

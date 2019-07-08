@@ -1,0 +1,28 @@
+
+.box {
+  width:100%;
+  height:300px;
+  background-color: red;
+  display: flex;
+  flex-direction: column
+}
+
+.item1 {
+  flex:1;
+  background: green;
+}
+
+.item2 {
+  flex:1;
+  background: red;
+}
+
+.item3 {
+  flex:1;
+  background: pink;
+}
+
+.item4 {
+  flex:1;
+  background: yellow;
+}

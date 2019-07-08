@@ -1,0 +1,25 @@
+<wxs src="../../wxs/hello.wxs" module="hello"></wxs>
+ 
+
+<template name="t1">
+   <view>hello template t1: {{hello.a}}</view>
+</template>
+
+<view class="box">
+  <view wx:if="{{flag > 1}}" class="item1">
+     {{msg}}
+  </view>
+  <view class="item2" wx:elif="{{ flag == 0}}">
+     hello 2
+  </view>
+  <view class="item3" wx:for-index="cid" wx:for-item="citem"  wx:for="{{cources}}" wx:key="{{cid}}">
+     {{cid}}: {{citem.title}}
+     <view>
+        标签：
+        <view wx:key="{{index}}" wx:for="{{citem.tags}}">{{citem.title}}-{{item}}</view>
+     </view>
+  </view>
+ 
+</view>
+
+<template is="t1" data="{{cources}}"></template>

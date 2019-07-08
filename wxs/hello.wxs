@@ -1,0 +1,14 @@
+
+
+var a = 1;
+
+
+function test(){
+  return a;
+}
+
+
+module.exports = {
+   a: a,
+   t: test
+}

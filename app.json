@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/about/about",
+    "pages/products/products",
+  
+    "pages/news/news",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "gray",
+    "navigationBarBackgroundColor": "#0f0",
+    "navigationBarTitleText": "悟空理财",
+    "navigationBarTextStyle": "white",
+    "pageOrientation": "portrait"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "/assets/tabs/geren.png",
+        "iconPath": "/assets/tabs/geren0.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/assets/tabs/jiaoshi.png",
+        "iconPath": "/assets/tabs/jiaoshi0.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "selectedIconPath": "/assets/tabs/kecheng.png",
+        "iconPath": "/assets/tabs/kecheng0.png",
+        "pagePath": "pages/products/products",
+        "text": "产品"
+      },
+      {
+        "selectedIconPath": "/assets/tabs/jiaoshi.png",
+        "iconPath": "/assets/tabs/jiaoshi0.png",
+        "pagePath": "pages/news/news",
+        "text": "闲聊"
+      },
+      {
+        "selectedIconPath": "/assets/tabs/jiaoshi.png",
+        "iconPath": "/assets/tabs/jiaoshi0.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ],
+    "position": "bottom"
+  },
+  "sitemapLocation": "sitemap.json"
+}
